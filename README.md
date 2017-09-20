@@ -33,6 +33,13 @@ Finally, serve the application:
 
 ### To use a virtual environment
 
+Use a virtual environment if you do not want to install the needed Python packages into ~/.local
+
+If you're unfamiliar with Python virtual environments:
+
+* [https://virtualenv.pypa.io/en/stable/](https://virtualenv.pypa.io/en/stable/)
+* [https://virtualenvwrapper.readthedocs.io/en/latest/](https://virtualenvwrapper.readthedocs.io/en/latest/)
+
 Make sure you have `virtualenvwrapper` installed
 
 On Arch Linux:
