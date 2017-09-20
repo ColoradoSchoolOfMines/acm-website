@@ -1,5 +1,11 @@
 # Mines ACM Student Chapter Website
 
+[acm.mines.edu](https://acm.mines.edu/)
+
+This is the website for the Colorado School of Mines' local chapter for the [Association for Computing Machinery](http://www.acm.org/).
+
+It is written in Python and uses the powerful web framework [TurboGears](http://turbogears.com/).
+
 ## Setting up your Development Environment
 
 Clone the repo:
