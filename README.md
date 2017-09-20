@@ -9,6 +9,9 @@ Clone the repo:
 Install the application and its dependencies:
 
     $ pip install -e . --user
+
+Setup the application:
+
     $ cp development.ini.sample development.ini
     $ gearbox setup-app
 
