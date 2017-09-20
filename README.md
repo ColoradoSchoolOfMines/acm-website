@@ -10,6 +10,10 @@ Install the application and its dependencies:
 
     $ pip install -e . --user
 
+If you do not have `gearbox` installed:
+
+    $ pip install --user tg.devtools
+
 Setup the application:
 
     $ cp development.ini.sample development.ini
