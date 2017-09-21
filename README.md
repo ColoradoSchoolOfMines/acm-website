@@ -2,9 +2,11 @@
 
 [acm.mines.edu](https://acm.mines.edu/)
 
-This is the website for the Colorado School of Mines' local chapter for the [Association for Computing Machinery](http://www.acm.org/).
+This is the website for the Colorado School of Mines' local chapter for the
+[Association for Computing Machinery](http://www.acm.org/).
 
-It is written in Python and uses the powerful web framework [TurboGears](http://turbogears.com/).
+It is written in Python and uses the powerful web framework
+[TurboGears](http://turbogears.com/).
 
 ## Setting up your Development Environment
 
@@ -33,7 +35,8 @@ Finally, serve the application:
 
 ### To use a virtual environment
 
-Use a virtual environment if you do not want to install the needed Python packages into ~/.local
+Use a virtual environment if you do not want to install the needed Python
+packages into ~/.local
 
 If you're unfamiliar with Python virtual environments:
 
@@ -71,6 +74,7 @@ Finally, serve the application:
 
     $ gearbox serve --reload --debug
 
-When you're finished working on the project and want to exit the virtual environment:
+When you're finished working on the project and want to exit the virtual
+environment:
 
     $ deactivate
