@@ -1,7 +1,10 @@
 # Contributing to the ACM Website
 Contributions are welcome!
 
-The most important rule is this: **make your intentions and reasoning clear**.
+The two most important rules are
+
+1. **Make your intentions and reasoning clear.**
+2. **Don't be a jerk.**
 
 In general, code contributions follow this pattern:
 
