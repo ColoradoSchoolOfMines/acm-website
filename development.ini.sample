@@ -13,6 +13,16 @@
 # execute malicious code after an exception is raised.
 debug = true
 
+# Site name configuration
+#site.name = Mozzarella
+
+# Custom Assets Configuration
+#site.custom_assets = %(here)s/assets
+
+# Wiki repository location
+#wiki.repo = %(here)s/wiki.git
+
+
 # ERROR REPORTING BY EMAIL
 # Uncomment to enable email error reporting, you probably want this
 # on production to receive application crashes by email
