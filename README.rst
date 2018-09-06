@@ -152,3 +152,26 @@ Here is an example config for Apache with ``mod_wsgi``:
         # Make sure to setup anything else you are using, such as SSL certs
     </VirtualHost>
 
+Static Assets
+~~~~~~~~~~~~~
+
+The location of site-specific assets for development can be configured in your development config: 
+
+.. code:: ini 
+
+    # Custom Assets Configuration
+    custom_assets.dir = /path/to/assets/dir
+    custom_assets.css = relative/path/to/css.file
+    custom_assets.logo = relative/path/to/logo.file
+
+Wiki
+~~~~
+
+Mozzarella includes a wiki that can be enabled by uncommenting the `wiki.repo` option in your configuration.
+When visiting the wiki for the first time after enabling it, Mozzarella will generate a bare git repository with a sample
+page in it.
+
+.. code:: ini
+
+   # Wiki repository location
+   wiki.repo = /path/to/wiki/dir

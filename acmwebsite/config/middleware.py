@@ -2,10 +2,10 @@
 """WSGI middleware initialization for the acm-website application."""
 from acmwebsite.config.app_cfg import base_config
 from acmwebsite.config.environment import load_environment
-
 # Depot
 from depot.manager import DepotManager
 
+from tg.support.statics import StaticsMiddleware
 
 __all__ = ['make_app']
 
@@ -34,6 +34,10 @@ def make_app(global_conf, full_stack=True, **app_conf):
     """
     app = make_base_app(global_conf, full_stack=True, **app_conf)
     app = DepotManager.make_middleware(app)
+    try:
+        app = StaticsMiddleware(app, app_conf['site.custom_assets'])
+    except KeyError:
+        pass
 
     # Wrap your base TurboGears 2 application with custom middleware here
 
